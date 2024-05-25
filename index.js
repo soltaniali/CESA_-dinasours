@@ -580,7 +580,7 @@
                 if ((this.distanceMeter.getActualDistance( Math.ceil(this.distanceRan))) > 800 )
                 {
                     // document.querySelector("#t").value = "look to the back of the spin, to go to the next level! =)) ";
-                    document.getElementById('t').innerHTML = '<div style="font-family: sans-serif;padding: 80px; text-align: center;background: #1abc9c;color: white;"><h1>Congrats!<h1><h2>look to the back of the spin, to go to the next level! =)) </h2></div>';
+                    document.getElementById('t').innerHTML = '<div style="font-family: sans-serif;padding: 80px; text-align: center;background: #1abc9c;color: white;"><h1>Congrats!<h1><h1>Congrats!<h1><h2>https://cesa-chars.vercel.app/</h2><h2>یه سری حروف پخش شدن پیداشون کن و سرهمشون کن! </h2></div>';
                 }
                 if (playAchievementSound) {
                     this.playSound(this.soundFx.SCORE);
